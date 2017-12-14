@@ -4,6 +4,10 @@ const fs = require('fs');
 const util = require('util');
 const asyncHooks = require('async_hooks');
 
+// const hooks = {};
+// const createLog = name => hooks[name] = (...args) => fs.writeSync(1, `${util.format(name, ...args)}\n`);
+// ['init', 'before', 'after', 'destroy', 'promiseResolve'].forEach(createLog);
+
 const hooks = {
   // Resourceが生成されるときに呼ばれる
   init(asyncId, type, triggerAsyncId, resource) {

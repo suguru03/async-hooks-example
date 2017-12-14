@@ -1,0 +1,1548 @@
+init
+{ asyncId: 6,
+  type: 'PROMISE',
+  triggerAsyncId: 1,
+  resource: PromiseWrap { parentId: undefined, promise: Promise { <pending> } } }
+init
+{ asyncId: 7,
+  type: 'Timeout',
+  triggerAsyncId: 1,
+  resource:
+   Timeout {
+     _called: false,
+     _idleTimeout: 1000,
+     _idlePrev: [Circular],
+     _idleNext: [Circular],
+     _idleStart: null,
+     _onTimeout: Promise { <pending> },
+     _timerArgs: [ undefined ],
+     _repeat: null,
+     _destroyed: false,
+     [Symbol(asyncId)]: 7,
+     [Symbol(triggerAsyncId)]: 1 } }
+init
+{ asyncId: 8,
+  type: 'TIMERWRAP',
+  triggerAsyncId: 1,
+  resource: Timer {} }
+init
+{ asyncId: 9,
+  type: 'PROMISE',
+  triggerAsyncId: 6,
+  resource: PromiseWrap { parentId: 6, promise: Promise { <pending> } } }
+init
+{ asyncId: 10,
+  type: 'PROMISE',
+  triggerAsyncId: 9,
+  resource: PromiseWrap { parentId: 9, promise: Promise { <pending> } } }
+init
+{ asyncId: 11,
+  type: 'PROMISE',
+  triggerAsyncId: 10,
+  resource: PromiseWrap { parentId: 10, promise: Promise { <pending> } } }
+init
+{ asyncId: 12,
+  type: 'PROMISE',
+  triggerAsyncId: 11,
+  resource: PromiseWrap { parentId: 11, promise: Promise { <pending> } } }
+init
+{ asyncId: 13,
+  type: 'PROMISE',
+  triggerAsyncId: 12,
+  resource: PromiseWrap { parentId: 12, promise: Promise { <pending> } } }
+init
+{ asyncId: 14,
+  type: 'PROMISE',
+  triggerAsyncId: 13,
+  resource: PromiseWrap { parentId: 13, promise: Promise { <pending> } } }
+init
+{ asyncId: 15,
+  type: 'PROMISE',
+  triggerAsyncId: 14,
+  resource: PromiseWrap { parentId: 14, promise: Promise { <pending> } } }
+init
+{ asyncId: 16,
+  type: 'PROMISE',
+  triggerAsyncId: 15,
+  resource: PromiseWrap { parentId: 15, promise: Promise { <pending> } } }
+init
+{ asyncId: 17,
+  type: 'PROMISE',
+  triggerAsyncId: 16,
+  resource: PromiseWrap { parentId: 16, promise: Promise { <pending> } } }
+init
+{ asyncId: 18,
+  type: 'PROMISE',
+  triggerAsyncId: 17,
+  resource: PromiseWrap { parentId: 17, promise: Promise { <pending> } } }
+init
+{ asyncId: 19,
+  type: 'PROMISE',
+  triggerAsyncId: 9,
+  resource: PromiseWrap { parentId: undefined, promise: Promise { <pending> } } }
+init
+{ asyncId: 20,
+  type: 'Timeout',
+  triggerAsyncId: 9,
+  resource:
+   Timeout {
+     _called: false,
+     _idleTimeout: 1000,
+     _idlePrev: [Circular],
+     _idleNext: [Circular],
+     _idleStart: null,
+     _onTimeout: Promise { <pending> },
+     _timerArgs: [ undefined ],
+     _repeat: null,
+     _destroyed: false,
+     [Symbol(asyncId)]: 20,
+     [Symbol(triggerAsyncId)]: 9 } }
+init
+{ asyncId: 21,
+  type: 'TIMERWRAP',
+  triggerAsyncId: 9,
+  resource: Timer {} }
+init
+{ asyncId: 22,
+  type: 'PROMISE',
+  triggerAsyncId: 19,
+  resource: PromiseWrap { parentId: 19, promise: Promise { <pending> } } }
+destroy	asyncId: 7 mapSize: 17
+stack: 	asyncId: 7 triggetAsyncId: 1
+    at emitInitNative (async_hooks.js:479:43)
+    at emitInitScript (async_hooks.js:395:3)
+    at new Timeout (timers.js:565:5)
+    at setTimeout.(anonymous function) (timers.js:454:3)
+    at Object.<anonymous> (/opt/app/stackTrace.js:41:15)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+destroy	asyncId: 8 mapSize: 16
+stack: 	asyncId: 8 triggetAsyncId: 1
+    at Timer.emitInitNative (async_hooks.js:479:43)
+    at new TimersList (timers.js:204:31)
+    at insert (timers.js:178:27)
+    at exports.active (timers.js:151:3)
+    at new Timeout (timers.js:571:3)
+    at setTimeout.(anonymous function) (timers.js:454:3)
+    at Object.<anonymous> (/opt/app/stackTrace.js:41:15)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+init
+{ asyncId: 23,
+  type: 'PROMISE',
+  triggerAsyncId: 10,
+  resource: PromiseWrap { parentId: undefined, promise: Promise { <pending> } } }
+init
+{ asyncId: 24,
+  type: 'Timeout',
+  triggerAsyncId: 10,
+  resource:
+   Timeout {
+     _called: false,
+     _idleTimeout: 1000,
+     _idlePrev: [Circular],
+     _idleNext: [Circular],
+     _idleStart: null,
+     _onTimeout: Promise { <pending> },
+     _timerArgs: [ undefined ],
+     _repeat: null,
+     _destroyed: false,
+     [Symbol(asyncId)]: 24,
+     [Symbol(triggerAsyncId)]: 10 } }
+init
+{ asyncId: 25,
+  type: 'TIMERWRAP',
+  triggerAsyncId: 10,
+  resource: Timer {} }
+init
+{ asyncId: 26,
+  type: 'PROMISE',
+  triggerAsyncId: 23,
+  resource: PromiseWrap { parentId: 23, promise: Promise { <pending> } } }
+destroy	asyncId: 20 mapSize: 19
+stack: 	asyncId: 20 triggetAsyncId: 9
+    at emitInitNative (async_hooks.js:479:43)
+    at emitInitScript (async_hooks.js:395:3)
+    at new Timeout (timers.js:565:5)
+    at setTimeout.(anonymous function) (timers.js:454:3)
+    at promise.then (/opt/app/stackTrace.js:43:32)
+    at <anonymous>
+stack: 	asyncId: 9 triggetAsyncId: 6
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 6 triggetAsyncId: 1
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at setTimeout.(anonymous function) (timers.js:453:19)
+    at Object.<anonymous> (/opt/app/stackTrace.js:41:15)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+destroy	asyncId: 21 mapSize: 18
+stack: 	asyncId: 21 triggetAsyncId: 9
+    at Timer.emitInitNative (async_hooks.js:479:43)
+    at new TimersList (timers.js:204:31)
+    at insert (timers.js:178:27)
+    at exports.active (timers.js:151:3)
+    at new Timeout (timers.js:571:3)
+    at setTimeout.(anonymous function) (timers.js:454:3)
+    at promise.then (/opt/app/stackTrace.js:43:32)
+    at <anonymous>
+stack: 	asyncId: 9 triggetAsyncId: 6
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 6 triggetAsyncId: 1
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at setTimeout.(anonymous function) (timers.js:453:19)
+    at Object.<anonymous> (/opt/app/stackTrace.js:41:15)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+init
+{ asyncId: 27,
+  type: 'PROMISE',
+  triggerAsyncId: 11,
+  resource: PromiseWrap { parentId: undefined, promise: Promise { <pending> } } }
+init
+{ asyncId: 28,
+  type: 'Timeout',
+  triggerAsyncId: 11,
+  resource:
+   Timeout {
+     _called: false,
+     _idleTimeout: 1000,
+     _idlePrev: [Circular],
+     _idleNext: [Circular],
+     _idleStart: null,
+     _onTimeout: Promise { <pending> },
+     _timerArgs: [ undefined ],
+     _repeat: null,
+     _destroyed: false,
+     [Symbol(asyncId)]: 28,
+     [Symbol(triggerAsyncId)]: 11 } }
+init
+{ asyncId: 29,
+  type: 'TIMERWRAP',
+  triggerAsyncId: 11,
+  resource: Timer {} }
+init
+{ asyncId: 30,
+  type: 'PROMISE',
+  triggerAsyncId: 27,
+  resource: PromiseWrap { parentId: 27, promise: Promise { <pending> } } }
+destroy	asyncId: 24 mapSize: 21
+stack: 	asyncId: 24 triggetAsyncId: 10
+    at emitInitNative (async_hooks.js:479:43)
+    at emitInitScript (async_hooks.js:395:3)
+    at new Timeout (timers.js:565:5)
+    at setTimeout.(anonymous function) (timers.js:454:3)
+    at promise.then (/opt/app/stackTrace.js:43:32)
+    at <anonymous>
+stack: 	asyncId: 10 triggetAsyncId: 9
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 9 triggetAsyncId: 6
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 6 triggetAsyncId: 1
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at setTimeout.(anonymous function) (timers.js:453:19)
+    at Object.<anonymous> (/opt/app/stackTrace.js:41:15)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+destroy	asyncId: 6 mapSize: 20
+stack: 	asyncId: 6 triggetAsyncId: 1
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at setTimeout.(anonymous function) (timers.js:453:19)
+    at Object.<anonymous> (/opt/app/stackTrace.js:41:15)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+destroy	asyncId: 23 mapSize: 19
+stack: 	asyncId: 23 triggetAsyncId: 10
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at setTimeout.(anonymous function) (timers.js:453:19)
+    at promise.then (/opt/app/stackTrace.js:43:32)
+    at <anonymous>
+stack: 	asyncId: 10 triggetAsyncId: 9
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 9 triggetAsyncId: 6
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+destroy	asyncId: 9 mapSize: 18
+stack: 	asyncId: 9 triggetAsyncId: 6
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+destroy	asyncId: 10 mapSize: 17
+stack: 	asyncId: 10 triggetAsyncId: 9
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+destroy	asyncId: 19 mapSize: 16
+stack: 	asyncId: 19 triggetAsyncId: 9
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at setTimeout.(anonymous function) (timers.js:453:19)
+    at promise.then (/opt/app/stackTrace.js:43:32)
+    at <anonymous>
+destroy	asyncId: 22 mapSize: 15
+stack: 	asyncId: 22 triggetAsyncId: 19
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+destroy	asyncId: 26 mapSize: 14
+stack: 	asyncId: 26 triggetAsyncId: 23
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+destroy	asyncId: 25 mapSize: 13
+stack: 	asyncId: 25 triggetAsyncId: 10
+    at Timer.emitInitNative (async_hooks.js:479:43)
+    at new TimersList (timers.js:204:31)
+    at insert (timers.js:178:27)
+    at exports.active (timers.js:151:3)
+    at new Timeout (timers.js:571:3)
+    at setTimeout.(anonymous function) (timers.js:454:3)
+    at promise.then (/opt/app/stackTrace.js:43:32)
+    at <anonymous>
+init
+{ asyncId: 31,
+  type: 'PROMISE',
+  triggerAsyncId: 12,
+  resource: PromiseWrap { parentId: undefined, promise: Promise { <pending> } } }
+init
+{ asyncId: 32,
+  type: 'Timeout',
+  triggerAsyncId: 12,
+  resource:
+   Timeout {
+     _called: false,
+     _idleTimeout: 1000,
+     _idlePrev: [Circular],
+     _idleNext: [Circular],
+     _idleStart: null,
+     _onTimeout: Promise { <pending> },
+     _timerArgs: [ undefined ],
+     _repeat: null,
+     _destroyed: false,
+     [Symbol(asyncId)]: 32,
+     [Symbol(triggerAsyncId)]: 12 } }
+init
+{ asyncId: 33,
+  type: 'TIMERWRAP',
+  triggerAsyncId: 12,
+  resource: Timer {} }
+init
+{ asyncId: 34,
+  type: 'PROMISE',
+  triggerAsyncId: 31,
+  resource: PromiseWrap { parentId: 31, promise: Promise { <pending> } } }
+destroy	asyncId: 28 mapSize: 16
+stack: 	asyncId: 28 triggetAsyncId: 11
+    at emitInitNative (async_hooks.js:479:43)
+    at emitInitScript (async_hooks.js:395:3)
+    at new Timeout (timers.js:565:5)
+    at setTimeout.(anonymous function) (timers.js:454:3)
+    at promise.then (/opt/app/stackTrace.js:43:32)
+    at <anonymous>
+stack: 	asyncId: 11 triggetAsyncId: 10
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+destroy	asyncId: 29 mapSize: 15
+stack: 	asyncId: 29 triggetAsyncId: 11
+    at Timer.emitInitNative (async_hooks.js:479:43)
+    at new TimersList (timers.js:204:31)
+    at insert (timers.js:178:27)
+    at exports.active (timers.js:151:3)
+    at new Timeout (timers.js:571:3)
+    at setTimeout.(anonymous function) (timers.js:454:3)
+    at promise.then (/opt/app/stackTrace.js:43:32)
+    at <anonymous>
+stack: 	asyncId: 11 triggetAsyncId: 10
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+init
+{ asyncId: 35,
+  type: 'PROMISE',
+  triggerAsyncId: 13,
+  resource: PromiseWrap { parentId: undefined, promise: Promise { <pending> } } }
+init
+{ asyncId: 36,
+  type: 'Timeout',
+  triggerAsyncId: 13,
+  resource:
+   Timeout {
+     _called: false,
+     _idleTimeout: 1000,
+     _idlePrev: [Circular],
+     _idleNext: [Circular],
+     _idleStart: null,
+     _onTimeout: Promise { <pending> },
+     _timerArgs: [ undefined ],
+     _repeat: null,
+     _destroyed: false,
+     [Symbol(asyncId)]: 36,
+     [Symbol(triggerAsyncId)]: 13 } }
+init
+{ asyncId: 37,
+  type: 'TIMERWRAP',
+  triggerAsyncId: 13,
+  resource: Timer {} }
+init
+{ asyncId: 38,
+  type: 'PROMISE',
+  triggerAsyncId: 35,
+  resource: PromiseWrap { parentId: 35, promise: Promise { <pending> } } }
+destroy	asyncId: 32 mapSize: 18
+stack: 	asyncId: 32 triggetAsyncId: 12
+    at emitInitNative (async_hooks.js:479:43)
+    at emitInitScript (async_hooks.js:395:3)
+    at new Timeout (timers.js:565:5)
+    at setTimeout.(anonymous function) (timers.js:454:3)
+    at promise.then (/opt/app/stackTrace.js:43:32)
+    at <anonymous>
+stack: 	asyncId: 12 triggetAsyncId: 11
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 11 triggetAsyncId: 10
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+destroy	asyncId: 33 mapSize: 17
+stack: 	asyncId: 33 triggetAsyncId: 12
+    at Timer.emitInitNative (async_hooks.js:479:43)
+    at new TimersList (timers.js:204:31)
+    at insert (timers.js:178:27)
+    at exports.active (timers.js:151:3)
+    at new Timeout (timers.js:571:3)
+    at setTimeout.(anonymous function) (timers.js:454:3)
+    at promise.then (/opt/app/stackTrace.js:43:32)
+    at <anonymous>
+stack: 	asyncId: 12 triggetAsyncId: 11
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 11 triggetAsyncId: 10
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+init
+{ asyncId: 39,
+  type: 'PROMISE',
+  triggerAsyncId: 14,
+  resource: PromiseWrap { parentId: undefined, promise: Promise { <pending> } } }
+init
+{ asyncId: 40,
+  type: 'Timeout',
+  triggerAsyncId: 14,
+  resource:
+   Timeout {
+     _called: false,
+     _idleTimeout: 1000,
+     _idlePrev: [Circular],
+     _idleNext: [Circular],
+     _idleStart: null,
+     _onTimeout: Promise { <pending> },
+     _timerArgs: [ undefined ],
+     _repeat: null,
+     _destroyed: false,
+     [Symbol(asyncId)]: 40,
+     [Symbol(triggerAsyncId)]: 14 } }
+init
+{ asyncId: 41,
+  type: 'TIMERWRAP',
+  triggerAsyncId: 14,
+  resource: Timer {} }
+init
+{ asyncId: 42,
+  type: 'PROMISE',
+  triggerAsyncId: 39,
+  resource: PromiseWrap { parentId: 39, promise: Promise { <pending> } } }
+destroy	asyncId: 36 mapSize: 20
+stack: 	asyncId: 36 triggetAsyncId: 13
+    at emitInitNative (async_hooks.js:479:43)
+    at emitInitScript (async_hooks.js:395:3)
+    at new Timeout (timers.js:565:5)
+    at setTimeout.(anonymous function) (timers.js:454:3)
+    at promise.then (/opt/app/stackTrace.js:43:32)
+    at <anonymous>
+stack: 	asyncId: 13 triggetAsyncId: 12
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 12 triggetAsyncId: 11
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 11 triggetAsyncId: 10
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+destroy	asyncId: 37 mapSize: 19
+stack: 	asyncId: 37 triggetAsyncId: 13
+    at Timer.emitInitNative (async_hooks.js:479:43)
+    at new TimersList (timers.js:204:31)
+    at insert (timers.js:178:27)
+    at exports.active (timers.js:151:3)
+    at new Timeout (timers.js:571:3)
+    at setTimeout.(anonymous function) (timers.js:454:3)
+    at promise.then (/opt/app/stackTrace.js:43:32)
+    at <anonymous>
+stack: 	asyncId: 13 triggetAsyncId: 12
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 12 triggetAsyncId: 11
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 11 triggetAsyncId: 10
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+init
+{ asyncId: 43,
+  type: 'PROMISE',
+  triggerAsyncId: 15,
+  resource: PromiseWrap { parentId: undefined, promise: Promise { <pending> } } }
+init
+{ asyncId: 44,
+  type: 'Timeout',
+  triggerAsyncId: 15,
+  resource:
+   Timeout {
+     _called: false,
+     _idleTimeout: 1000,
+     _idlePrev: [Circular],
+     _idleNext: [Circular],
+     _idleStart: null,
+     _onTimeout: Promise { <pending> },
+     _timerArgs: [ undefined ],
+     _repeat: null,
+     _destroyed: false,
+     [Symbol(asyncId)]: 44,
+     [Symbol(triggerAsyncId)]: 15 } }
+init
+{ asyncId: 45,
+  type: 'TIMERWRAP',
+  triggerAsyncId: 15,
+  resource: Timer {} }
+init
+{ asyncId: 46,
+  type: 'PROMISE',
+  triggerAsyncId: 43,
+  resource: PromiseWrap { parentId: 43, promise: Promise { <pending> } } }
+destroy	asyncId: 40 mapSize: 22
+stack: 	asyncId: 40 triggetAsyncId: 14
+    at emitInitNative (async_hooks.js:479:43)
+    at emitInitScript (async_hooks.js:395:3)
+    at new Timeout (timers.js:565:5)
+    at setTimeout.(anonymous function) (timers.js:454:3)
+    at promise.then (/opt/app/stackTrace.js:43:32)
+    at <anonymous>
+stack: 	asyncId: 14 triggetAsyncId: 13
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 13 triggetAsyncId: 12
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 12 triggetAsyncId: 11
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 11 triggetAsyncId: 10
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+destroy	asyncId: 41 mapSize: 21
+stack: 	asyncId: 41 triggetAsyncId: 14
+    at Timer.emitInitNative (async_hooks.js:479:43)
+    at new TimersList (timers.js:204:31)
+    at insert (timers.js:178:27)
+    at exports.active (timers.js:151:3)
+    at new Timeout (timers.js:571:3)
+    at setTimeout.(anonymous function) (timers.js:454:3)
+    at promise.then (/opt/app/stackTrace.js:43:32)
+    at <anonymous>
+stack: 	asyncId: 14 triggetAsyncId: 13
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 13 triggetAsyncId: 12
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 12 triggetAsyncId: 11
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 11 triggetAsyncId: 10
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+init
+{ asyncId: 47,
+  type: 'PROMISE',
+  triggerAsyncId: 16,
+  resource: PromiseWrap { parentId: undefined, promise: Promise { <pending> } } }
+init
+{ asyncId: 48,
+  type: 'Timeout',
+  triggerAsyncId: 16,
+  resource:
+   Timeout {
+     _called: false,
+     _idleTimeout: 1000,
+     _idlePrev: [Circular],
+     _idleNext: [Circular],
+     _idleStart: null,
+     _onTimeout: Promise { <pending> },
+     _timerArgs: [ undefined ],
+     _repeat: null,
+     _destroyed: false,
+     [Symbol(asyncId)]: 48,
+     [Symbol(triggerAsyncId)]: 16 } }
+init
+{ asyncId: 49,
+  type: 'TIMERWRAP',
+  triggerAsyncId: 16,
+  resource: Timer {} }
+init
+{ asyncId: 50,
+  type: 'PROMISE',
+  triggerAsyncId: 47,
+  resource: PromiseWrap { parentId: 47, promise: Promise { <pending> } } }
+destroy	asyncId: 44 mapSize: 24
+stack: 	asyncId: 44 triggetAsyncId: 15
+    at emitInitNative (async_hooks.js:479:43)
+    at emitInitScript (async_hooks.js:395:3)
+    at new Timeout (timers.js:565:5)
+    at setTimeout.(anonymous function) (timers.js:454:3)
+    at promise.then (/opt/app/stackTrace.js:43:32)
+    at <anonymous>
+stack: 	asyncId: 15 triggetAsyncId: 14
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 14 triggetAsyncId: 13
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 13 triggetAsyncId: 12
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 12 triggetAsyncId: 11
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 11 triggetAsyncId: 10
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+destroy	asyncId: 45 mapSize: 23
+stack: 	asyncId: 45 triggetAsyncId: 15
+    at Timer.emitInitNative (async_hooks.js:479:43)
+    at new TimersList (timers.js:204:31)
+    at insert (timers.js:178:27)
+    at exports.active (timers.js:151:3)
+    at new Timeout (timers.js:571:3)
+    at setTimeout.(anonymous function) (timers.js:454:3)
+    at promise.then (/opt/app/stackTrace.js:43:32)
+    at <anonymous>
+stack: 	asyncId: 15 triggetAsyncId: 14
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 14 triggetAsyncId: 13
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 13 triggetAsyncId: 12
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 12 triggetAsyncId: 11
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 11 triggetAsyncId: 10
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+init
+{ asyncId: 51,
+  type: 'PROMISE',
+  triggerAsyncId: 17,
+  resource: PromiseWrap { parentId: undefined, promise: Promise { <pending> } } }
+init
+{ asyncId: 52,
+  type: 'Timeout',
+  triggerAsyncId: 17,
+  resource:
+   Timeout {
+     _called: false,
+     _idleTimeout: 1000,
+     _idlePrev: [Circular],
+     _idleNext: [Circular],
+     _idleStart: null,
+     _onTimeout: Promise { <pending> },
+     _timerArgs: [ undefined ],
+     _repeat: null,
+     _destroyed: false,
+     [Symbol(asyncId)]: 52,
+     [Symbol(triggerAsyncId)]: 17 } }
+init
+{ asyncId: 53,
+  type: 'TIMERWRAP',
+  triggerAsyncId: 17,
+  resource: Timer {} }
+init
+{ asyncId: 54,
+  type: 'PROMISE',
+  triggerAsyncId: 51,
+  resource: PromiseWrap { parentId: 51, promise: Promise { <pending> } } }
+destroy	asyncId: 48 mapSize: 26
+stack: 	asyncId: 48 triggetAsyncId: 16
+    at emitInitNative (async_hooks.js:479:43)
+    at emitInitScript (async_hooks.js:395:3)
+    at new Timeout (timers.js:565:5)
+    at setTimeout.(anonymous function) (timers.js:454:3)
+    at promise.then (/opt/app/stackTrace.js:43:32)
+    at <anonymous>
+stack: 	asyncId: 16 triggetAsyncId: 15
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 15 triggetAsyncId: 14
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 14 triggetAsyncId: 13
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 13 triggetAsyncId: 12
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 12 triggetAsyncId: 11
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 11 triggetAsyncId: 10
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+destroy	asyncId: 49 mapSize: 25
+stack: 	asyncId: 49 triggetAsyncId: 16
+    at Timer.emitInitNative (async_hooks.js:479:43)
+    at new TimersList (timers.js:204:31)
+    at insert (timers.js:178:27)
+    at exports.active (timers.js:151:3)
+    at new Timeout (timers.js:571:3)
+    at setTimeout.(anonymous function) (timers.js:454:3)
+    at promise.then (/opt/app/stackTrace.js:43:32)
+    at <anonymous>
+stack: 	asyncId: 16 triggetAsyncId: 15
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 15 triggetAsyncId: 14
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 14 triggetAsyncId: 13
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 13 triggetAsyncId: 12
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 12 triggetAsyncId: 11
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 11 triggetAsyncId: 10
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+init
+{ asyncId: 55,
+  type: 'PROMISE',
+  triggerAsyncId: 18,
+  resource: PromiseWrap { parentId: undefined, promise: Promise { <pending> } } }
+init
+{ asyncId: 56,
+  type: 'Timeout',
+  triggerAsyncId: 18,
+  resource:
+   Timeout {
+     _called: false,
+     _idleTimeout: 1000,
+     _idlePrev: [Circular],
+     _idleNext: [Circular],
+     _idleStart: null,
+     _onTimeout: Promise { <pending> },
+     _timerArgs: [ undefined ],
+     _repeat: null,
+     _destroyed: false,
+     [Symbol(asyncId)]: 56,
+     [Symbol(triggerAsyncId)]: 18 } }
+init
+{ asyncId: 57,
+  type: 'TIMERWRAP',
+  triggerAsyncId: 18,
+  resource: Timer {} }
+init
+{ asyncId: 58,
+  type: 'PROMISE',
+  triggerAsyncId: 55,
+  resource: PromiseWrap { parentId: 55, promise: Promise { <pending> } } }
+destroy	asyncId: 52 mapSize: 28
+stack: 	asyncId: 52 triggetAsyncId: 17
+    at emitInitNative (async_hooks.js:479:43)
+    at emitInitScript (async_hooks.js:395:3)
+    at new Timeout (timers.js:565:5)
+    at setTimeout.(anonymous function) (timers.js:454:3)
+    at promise.then (/opt/app/stackTrace.js:43:32)
+    at <anonymous>
+stack: 	asyncId: 17 triggetAsyncId: 16
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 16 triggetAsyncId: 15
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 15 triggetAsyncId: 14
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 14 triggetAsyncId: 13
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 13 triggetAsyncId: 12
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 12 triggetAsyncId: 11
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 11 triggetAsyncId: 10
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+destroy	asyncId: 53 mapSize: 27
+stack: 	asyncId: 53 triggetAsyncId: 17
+    at Timer.emitInitNative (async_hooks.js:479:43)
+    at new TimersList (timers.js:204:31)
+    at insert (timers.js:178:27)
+    at exports.active (timers.js:151:3)
+    at new Timeout (timers.js:571:3)
+    at setTimeout.(anonymous function) (timers.js:454:3)
+    at promise.then (/opt/app/stackTrace.js:43:32)
+    at <anonymous>
+stack: 	asyncId: 17 triggetAsyncId: 16
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 16 triggetAsyncId: 15
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 15 triggetAsyncId: 14
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 14 triggetAsyncId: 13
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 13 triggetAsyncId: 12
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 12 triggetAsyncId: 11
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 11 triggetAsyncId: 10
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+destroy	asyncId: 56 mapSize: 26
+stack: 	asyncId: 56 triggetAsyncId: 18
+    at emitInitNative (async_hooks.js:479:43)
+    at emitInitScript (async_hooks.js:395:3)
+    at new Timeout (timers.js:565:5)
+    at setTimeout.(anonymous function) (timers.js:454:3)
+    at promise.then (/opt/app/stackTrace.js:43:32)
+    at <anonymous>
+stack: 	asyncId: 18 triggetAsyncId: 17
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 17 triggetAsyncId: 16
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 16 triggetAsyncId: 15
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 15 triggetAsyncId: 14
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 14 triggetAsyncId: 13
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 13 triggetAsyncId: 12
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 12 triggetAsyncId: 11
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 11 triggetAsyncId: 10
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+destroy	asyncId: 57 mapSize: 25
+stack: 	asyncId: 57 triggetAsyncId: 18
+    at Timer.emitInitNative (async_hooks.js:479:43)
+    at new TimersList (timers.js:204:31)
+    at insert (timers.js:178:27)
+    at exports.active (timers.js:151:3)
+    at new Timeout (timers.js:571:3)
+    at setTimeout.(anonymous function) (timers.js:454:3)
+    at promise.then (/opt/app/stackTrace.js:43:32)
+    at <anonymous>
+stack: 	asyncId: 18 triggetAsyncId: 17
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 17 triggetAsyncId: 16
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 16 triggetAsyncId: 15
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 15 triggetAsyncId: 14
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 14 triggetAsyncId: 13
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 13 triggetAsyncId: 12
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 12 triggetAsyncId: 11
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
+stack: 	asyncId: 11 triggetAsyncId: 10
+    at PromiseWrap.emitInitNative (async_hooks.js:479:43)
+    at Promise.then (<anonymous>)
+    at Object.<anonymous> (/opt/app/stackTrace.js:43:21)
+    at Module._compile (module.js:660:30)
+    at Object.Module._extensions..js (module.js:671:10)
+    at Module.load (module.js:573:32)
+    at tryModuleLoad (module.js:513:12)
+    at Function.Module._load (module.js:505:3)
+    at Function.Module.runMain (module.js:701:10)
+    at startup (bootstrap_node.js:194:16)
