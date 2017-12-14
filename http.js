@@ -21,8 +21,6 @@ const hooks = {};
 const createLog = name => hooks[name] = (...args) => fs.writeSync(1, `${util.format(name, ...args)}\n`);
 ['init', 'before', 'after', 'destroy', 'promiseResolve'].forEach(createLog);
 
-const asyncHook = asyncHooks.createHook(hooks);
-
-asyncHook.enable();
+asyncHooks.createHook(hooks).enable();
 
 http.createServer((req, res) => res.end()).listen(3000);
